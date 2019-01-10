@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <body>
+     <div id"topo">  <h1>Mapeamento dos Cursos de Engenharia Florestal das Universidades Públicas e Privadas</h1>
+      <p> Guia do curso de Engenharia Florestal da Região Sul</p>
+      </div>
+  </head>
+      <body>
+        <div id="map-canvas"></div>
+      </body>
+</html>
+<style type="text/css">
+  a:link {
+    text-decoration:none;
+  }
+  a:hover {
+    text-decoration: none;  
+    color:#900000;
+    font-size: 14px;
+    font-family: Arial;
+  }
+</style>
+
+    <div id="legend">
+      <h3> Classificação </h3>    
+      <li><a href="#cap" onclick="carregar_mapa('PUBLICA');">Universidades Públicas</li></a>
+    	 <li><a href="#cs" onclick="carregar_mapa('PRIVADA');">Universidades Privadas</li></a>
+    	
+     </div>
+  </body>
+</html>
+<html>
+<head>
+
